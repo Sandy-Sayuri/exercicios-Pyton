@@ -1,5 +1,10 @@
-#Crie um programa que leia 2 números e mostre a soma entre eles
-n1=int(input('digite um número: '))
-n2=int(input('digite outro número: '))
-s=n1+n2
-print('A soma dos numeros {} e {} é {}'.format(n1,n2,s))
+#Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis sobre ele.
+a=input('Digite algo: ')
+print('O tipo primitivo desse valor é ',type(a))
+print('Só tem espaços ', a.isspace())
+print('É um número ',a.isnumeric())
+print('É alfabético ',a.isalpha())
+print('É alfanumérico',a.isalnum())
+print('Está em maiúscula?',a.isupper())
+print('Está em minúsculas?',a.islower())
+print('Está capitalizada?',a.istitle())

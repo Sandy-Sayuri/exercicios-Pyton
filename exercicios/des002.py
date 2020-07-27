@@ -1,5 +1,4 @@
-#Crie um script Python que leia o dia,o mês e oano de nacimento de uma pessoa e mostre uma mensagem com a data formatada
-dia=input('Dia = ')
-Mes=input('Mes = ')
-Ano=input('Ano = ')
-print('Você naceu no dia '+dia+" de "+Mes+" de "+Ano+". Correto?")
+#Cria um script Python que leia 2 números e tente mostrar a soma entre eles
+n1=int(input('Primero número= '))
+n2=int(input('Segundo número= '))
+print('A soma de ',n1, "e " ,n2, "é " ,n1+n2)
