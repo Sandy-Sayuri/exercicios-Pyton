@@ -3,5 +3,5 @@ import math;
 n1=int(input('Digite um numero'))
 d=n1*2
 tri=n1*3
-r=sqrt(n1)
+r=n1**(1/2)
 print('a raiz quadrada do número {} é {} , o dobro {}e o triplo {}'.format(n1,r,d,tri))
