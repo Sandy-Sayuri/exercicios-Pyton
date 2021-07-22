@@ -7,4 +7,5 @@ print('Analizando nome...')
 print('Seu nome em maiuscula é {}'.format(nome.upper()))
 print('Seu nome em manuscula é {}'.format(nome.lower()))
 print('Seu nome tem {} letras.'.format(len(nome)-nome.count(' ')))#o quanto tem de carcteres - o espaço
-print('Seu primeiro nome tem {}'.format(nome.find(' ')))
+separa= nome.split()
+print('Seu primero nome é {} e ele tem {} letras'.format(separa[0] ,len(separa[0])))
